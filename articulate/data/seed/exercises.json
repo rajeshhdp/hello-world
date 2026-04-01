@@ -1,0 +1,362 @@
+[
+  {
+    "type": "pronunciation",
+    "domain": "technical",
+    "difficulty": 2,
+    "title": "Basic Tech Vocabulary",
+    "instructions": "Pronounce each word clearly and distinctly.",
+    "reference_text": "Algorithm. Cache. Concatenate. Asynchronous. Parameter. Repository.",
+    "target_words": ["algorithm", "asynchronous", "concatenate"]
+  },
+  {
+    "type": "pronunciation",
+    "domain": "technical",
+    "difficulty": 3,
+    "title": "Database Terms",
+    "instructions": "Focus on syllable stress in each word.",
+    "reference_text": "Relational. PostgreSQL. Schema. Constraint. Transaction. Aggregate.",
+    "target_words": ["postgresql", "relational", "aggregate"]
+  },
+  {
+    "type": "pronunciation",
+    "domain": "technical",
+    "difficulty": 4,
+    "title": "Cloud & Infrastructure",
+    "instructions": "Pronounce each term at a steady pace.",
+    "reference_text": "Kubernetes. Containerization. Orchestration. Microservices. Resilience.",
+    "target_words": ["kubernetes", "containerization", "orchestration"]
+  },
+  {
+    "type": "pronunciation",
+    "domain": "technical",
+    "difficulty": 5,
+    "title": "Security Vocabulary",
+    "instructions": "These words are commonly mispronounced. Take your time.",
+    "reference_text": "Authentication. Authorization. Cryptography. Vulnerability. Obfuscation.",
+    "target_words": ["authentication", "cryptography", "vulnerability"]
+  },
+  {
+    "type": "pronunciation",
+    "domain": "interviews",
+    "difficulty": 3,
+    "title": "Interview Keywords",
+    "instructions": "Practice these words you will use in interviews.",
+    "reference_text": "Scalable. Architecture. Optimization. Collaborative. Methodology. Initiative.",
+    "target_words": ["scalable", "architecture", "collaborative"]
+  },
+  {
+    "type": "pronunciation",
+    "domain": "technical",
+    "difficulty": 6,
+    "title": "Advanced DevOps Terms",
+    "instructions": "Enunciate each syllable clearly.",
+    "reference_text": "Infrastructure. Observability. Telemetry. Idempotent. Ephemeral. Provisioning.",
+    "target_words": ["observability", "idempotent", "telemetry"]
+  },
+  {
+    "type": "pronunciation",
+    "domain": "meetings",
+    "difficulty": 2,
+    "title": "Meeting Phrases Warmup",
+    "instructions": "Say each word with clear word boundaries.",
+    "reference_text": "Agenda. Stakeholder. Deliverable. Milestone. Retrospective. Bandwidth.",
+    "target_words": ["stakeholder", "deliverable", "retrospective"]
+  },
+  {
+    "type": "pronunciation",
+    "domain": "technical",
+    "difficulty": 7,
+    "title": "Architecture Patterns",
+    "instructions": "Focus on stress and clarity.",
+    "reference_text": "Polymorphism. Encapsulation. Abstraction. Inheritance. Serialization. Deserialization.",
+    "target_words": ["polymorphism", "deserialization", "encapsulation"]
+  },
+  {
+    "type": "sentence",
+    "domain": "meetings",
+    "difficulty": 2,
+    "title": "Daily Standup — Simple",
+    "instructions": "Read at a natural conversational pace.",
+    "reference_text": "Yesterday I finished the login page. Today I will work on the API. I have no blockers.",
+    "target_words": ["finished", "blockers"]
+  },
+  {
+    "type": "sentence",
+    "domain": "meetings",
+    "difficulty": 3,
+    "title": "Sprint Review Update",
+    "instructions": "Speak with confidence and clarity.",
+    "reference_text": "During this sprint we completed eight user stories, fixed three critical bugs, and improved the page load time by thirty percent.",
+    "target_words": ["sprint", "completed", "critical"]
+  },
+  {
+    "type": "sentence",
+    "domain": "meetings",
+    "difficulty": 4,
+    "title": "Incident Update",
+    "instructions": "Practice clear, calm communication under pressure.",
+    "reference_text": "We have identified the root cause of the outage. The database connection pool was exhausted due to a misconfigured retry policy. We are rolling back the deployment now.",
+    "target_words": ["identified", "exhausted", "misconfigured"]
+  },
+  {
+    "type": "sentence",
+    "domain": "presentations",
+    "difficulty": 3,
+    "title": "Feature Introduction",
+    "instructions": "Open your presentation with energy and confidence.",
+    "reference_text": "Today I want to walk you through our new authentication service, which improves security and reduces login time by fifty percent.",
+    "target_words": ["authentication", "improves", "reduces"]
+  },
+  {
+    "type": "sentence",
+    "domain": "presentations",
+    "difficulty": 4,
+    "title": "Technical Architecture Overview",
+    "instructions": "Maintain a steady pace and clear enunciation.",
+    "reference_text": "Our system is built on a microservices architecture with an API gateway that handles authentication, rate limiting, and request routing to downstream services.",
+    "target_words": ["microservices", "authentication", "downstream"]
+  },
+  {
+    "type": "sentence",
+    "domain": "presentations",
+    "difficulty": 5,
+    "title": "Data Pipeline Explanation",
+    "instructions": "Explain technical concepts as if to a mixed audience.",
+    "reference_text": "The data pipeline ingests events from Kafka, transforms them using Apache Spark, and persists the aggregated results in a PostgreSQL database for real-time analytics.",
+    "target_words": ["ingests", "transforms", "aggregated"]
+  },
+  {
+    "type": "sentence",
+    "domain": "interviews",
+    "difficulty": 3,
+    "title": "Tell Me About Yourself",
+    "instructions": "Speak naturally, as in a real interview.",
+    "reference_text": "I am a software engineer with five years of experience building scalable web applications. I specialize in backend development and have strong expertise in Python and cloud infrastructure.",
+    "target_words": ["experience", "scalable", "specialize"]
+  },
+  {
+    "type": "sentence",
+    "domain": "interviews",
+    "difficulty": 4,
+    "title": "Describe a Challenge",
+    "instructions": "Use the STAR method: Situation, Task, Action, Result.",
+    "reference_text": "In my previous role, we were experiencing significant latency in our search service. I profiled the application, identified an N-plus-one query issue, and resolved it by implementing eager loading, reducing response time by eighty percent.",
+    "target_words": ["latency", "profiled", "implementing"]
+  },
+  {
+    "type": "sentence",
+    "domain": "technical",
+    "difficulty": 4,
+    "title": "Code Review Feedback",
+    "instructions": "Practice giving constructive technical feedback.",
+    "reference_text": "I think we should extract this logic into a separate service to improve testability and separation of concerns. Also, we should add input validation to prevent potential injection attacks.",
+    "target_words": ["testability", "separation", "injection"]
+  },
+  {
+    "type": "sentence",
+    "domain": "meetings",
+    "difficulty": 5,
+    "title": "Escalation Discussion",
+    "instructions": "Communicate urgency clearly and professionally.",
+    "reference_text": "I need to escalate this issue because it is affecting production users. The current workaround is not sustainable, and we need to allocate engineering resources immediately to implement a permanent fix.",
+    "target_words": ["escalate", "sustainable", "permanently"]
+  },
+  {
+    "type": "sentence",
+    "domain": "technical",
+    "difficulty": 6,
+    "title": "System Design Explanation",
+    "instructions": "Speak with authority on architecture decisions.",
+    "reference_text": "For high availability, we deploy across three availability zones with an active-active configuration. Requests are load-balanced and the database uses synchronous replication with automatic failover in case of a primary node failure.",
+    "target_words": ["availability", "configuration", "replication"]
+  },
+  {
+    "type": "sentence",
+    "domain": "presentations",
+    "difficulty": 6,
+    "title": "Roadmap Presentation",
+    "instructions": "Present with a structured, confident delivery.",
+    "reference_text": "In Q1 we will focus on platform stability and technical debt reduction. Q2 will be dedicated to expanding our API capabilities and introducing GraphQL support. By Q3 we aim to launch the mobile application.",
+    "target_words": ["stability", "dedicated", "capabilities"]
+  },
+  {
+    "type": "vocabulary",
+    "domain": "technical",
+    "difficulty": 2,
+    "title": "What is an API?",
+    "instructions": "Define this term as you would explain it to a colleague.",
+    "reference_text": "An API, or Application Programming Interface, is a set of rules and protocols that allows different software applications to communicate with each other.",
+    "target_words": ["interface", "protocols", "communicate"]
+  },
+  {
+    "type": "vocabulary",
+    "domain": "technical",
+    "difficulty": 3,
+    "title": "Explaining Caching",
+    "instructions": "Use precise technical language.",
+    "reference_text": "Caching is a technique used to store frequently accessed data in a fast-access memory layer, such as Redis, to reduce database load and improve application response time.",
+    "target_words": ["frequently", "technique", "response"]
+  },
+  {
+    "type": "vocabulary",
+    "domain": "technical",
+    "difficulty": 4,
+    "title": "Describing CI/CD",
+    "instructions": "Explain clearly as if to a non-technical manager.",
+    "reference_text": "Continuous Integration and Continuous Deployment is a practice where code changes are automatically tested and deployed to production whenever a developer merges to the main branch.",
+    "target_words": ["automatically", "deployed", "continuously"]
+  },
+  {
+    "type": "vocabulary",
+    "domain": "meetings",
+    "difficulty": 2,
+    "title": "What is a Sprint?",
+    "instructions": "Define the agile concept naturally.",
+    "reference_text": "A sprint is a fixed period, usually two weeks, during which a development team completes a set of agreed-upon tasks from the product backlog.",
+    "target_words": ["fixed", "development", "backlog"]
+  },
+  {
+    "type": "vocabulary",
+    "domain": "technical",
+    "difficulty": 5,
+    "title": "Explaining Containerization",
+    "instructions": "Use an analogy if it helps, but stay accurate.",
+    "reference_text": "Containerization is a form of operating system virtualization where applications are packaged with their dependencies in isolated containers, enabling consistent execution across different computing environments.",
+    "target_words": ["virtualization", "isolated", "consistent"]
+  },
+  {
+    "type": "vocabulary",
+    "domain": "technical",
+    "difficulty": 4,
+    "title": "Describing Event-Driven Architecture",
+    "instructions": "Explain the pattern clearly and concisely.",
+    "reference_text": "Event-driven architecture is a design pattern where system components communicate by producing and consuming events, enabling loose coupling and high scalability.",
+    "target_words": ["components", "producing", "coupling"]
+  },
+  {
+    "type": "vocabulary",
+    "domain": "interviews",
+    "difficulty": 3,
+    "title": "What is SOLID?",
+    "instructions": "Explain to a non-expert interviewer.",
+    "reference_text": "SOLID is an acronym representing five principles of object-oriented design that help developers build maintainable and scalable software: Single responsibility, Open-closed, Liskov substitution, Interface segregation, and Dependency inversion.",
+    "target_words": ["maintainable", "scalable", "principles"]
+  },
+  {
+    "type": "vocabulary",
+    "domain": "technical",
+    "difficulty": 6,
+    "title": "Distributed Systems Concepts",
+    "instructions": "Cover CAP theorem concisely.",
+    "reference_text": "The CAP theorem states that a distributed system cannot simultaneously guarantee consistency, availability, and partition tolerance. Engineers must make trade-offs based on the specific requirements of their application.",
+    "target_words": ["simultaneously", "consistency", "availability"]
+  },
+  {
+    "type": "scenario",
+    "domain": "meetings",
+    "difficulty": 3,
+    "title": "Daily Standup — Full Update",
+    "instructions": "Give your complete standup update as if to your team. Mention what you did yesterday, what you are doing today, and any blockers.",
+    "reference_text": "Yesterday I completed the implementation of the user authentication module and wrote unit tests covering the main edge cases. Today I will start integrating the payment gateway and review the pull request from the frontend team. I have one blocker: I need access to the Stripe test credentials, which I have requested from the DevOps team.",
+    "target_words": ["authentication", "integrating", "credentials"]
+  },
+  {
+    "type": "scenario",
+    "domain": "presentations",
+    "difficulty": 4,
+    "title": "Explain a Technical Decision",
+    "instructions": "Explain why your team chose PostgreSQL over MongoDB for a new project.",
+    "reference_text": "We chose PostgreSQL for this project because our data has a well-defined relational structure with complex joins across multiple tables. PostgreSQL offers ACID compliance, which is critical for our financial transactions. While MongoDB would offer more flexibility, the lack of strict schema enforcement would increase the risk of data inconsistencies.",
+    "target_words": ["relational", "compliance", "inconsistencies"]
+  },
+  {
+    "type": "scenario",
+    "domain": "interviews",
+    "difficulty": 4,
+    "title": "Describe Your Biggest Achievement",
+    "instructions": "Share a professional achievement using the STAR method.",
+    "reference_text": "My biggest achievement was leading the migration of our monolithic application to a microservices architecture. The project involved decomposing twelve services, setting up a Kubernetes cluster, and implementing a CI/CD pipeline. This reduced our deployment time from two days to under thirty minutes and improved system reliability by forty percent.",
+    "target_words": ["migration", "decomposing", "implementing"]
+  },
+  {
+    "type": "scenario",
+    "domain": "meetings",
+    "difficulty": 5,
+    "title": "Post-Incident Report",
+    "instructions": "Present the summary of a production incident to leadership.",
+    "reference_text": "On Tuesday at fourteen hundred hours, our primary database replica experienced a failover due to network instability in the us-east-1 availability zone. This caused four minutes of degraded service for approximately twenty percent of our users. We have identified three corrective actions: improving our health check frequency, adding redundant network paths, and updating our runbook procedures.",
+    "target_words": ["replica", "availability", "corrective"]
+  },
+  {
+    "type": "scenario",
+    "domain": "presentations",
+    "difficulty": 6,
+    "title": "Quarterly Engineering Review",
+    "instructions": "Present the engineering team's quarterly accomplishments and roadmap.",
+    "reference_text": "This quarter, the engineering team delivered twenty-three features, reduced our technical debt by fifteen percent, and improved our system uptime to ninety-nine point nine percent. For Q3, we are prioritizing our observability platform, completing the API v2 migration, and launching automated security scanning in our CI/CD pipeline.",
+    "target_words": ["accomplishments", "observability", "automated"]
+  },
+  {
+    "type": "scenario",
+    "domain": "interviews",
+    "difficulty": 5,
+    "title": "System Design Interview Answer",
+    "instructions": "Answer a system design question: 'How would you design a URL shortener?'",
+    "reference_text": "I would design the URL shortener as follows. First, I would use a distributed key-value store like Redis to map short codes to original URLs for fast lookups. For generating short codes, I would use a base-62 encoding of an auto-incremented ID from a database. To handle high traffic, I would add a caching layer and deploy the application behind a load balancer across multiple regions.",
+    "target_words": ["distributed", "encoding", "deploying"]
+  },
+  {
+    "type": "sentence",
+    "domain": "technical",
+    "difficulty": 3,
+    "title": "Explaining a Bug Fix",
+    "instructions": "Explain a bug fix to a teammate.",
+    "reference_text": "The issue was caused by a race condition in the payment processing module. When two concurrent requests tried to update the same order, both read the original state before either write was committed, resulting in a duplicate charge.",
+    "target_words": ["concurrent", "committed", "duplicate"]
+  },
+  {
+    "type": "sentence",
+    "domain": "meetings",
+    "difficulty": 4,
+    "title": "Requesting Prioritization",
+    "instructions": "Communicate priority clearly and persuasively.",
+    "reference_text": "I would like to propose that we prioritize the performance optimization work this sprint because our largest customer has reported significant latency issues that are directly impacting their user experience.",
+    "target_words": ["prioritize", "optimization", "impacting"]
+  },
+  {
+    "type": "sentence",
+    "domain": "technical",
+    "difficulty": 5,
+    "title": "Onboarding a New Teammate",
+    "instructions": "Give a clear, welcoming technical orientation.",
+    "reference_text": "Our codebase is structured as a monorepo with three main packages: the API service built with FastAPI, the web frontend in Next.js, and a shared library containing our domain models and utility functions.",
+    "target_words": ["structured", "frontend", "utility"]
+  },
+  {
+    "type": "sentence",
+    "domain": "presentations",
+    "difficulty": 4,
+    "title": "Summarizing a Demo",
+    "instructions": "Wrap up a product demo confidently.",
+    "reference_text": "In summary, the new dashboard gives users real-time visibility into their system health, enables faster incident detection, and reduces mean time to resolution by providing contextual alerts and automated runbooks.",
+    "target_words": ["visibility", "contextual", "automated"]
+  },
+  {
+    "type": "sentence",
+    "domain": "interviews",
+    "difficulty": 5,
+    "title": "Leadership Philosophy",
+    "instructions": "Answer: 'What is your leadership philosophy?'",
+    "reference_text": "I believe effective technical leadership means creating an environment where engineers feel psychologically safe to take risks, make mistakes, and grow. I prioritize clear communication, removing blockers, and ensuring the team has the context needed to make good decisions autonomously.",
+    "target_words": ["psychologically", "autonomously", "prioritize"]
+  },
+  {
+    "type": "vocabulary",
+    "domain": "technical",
+    "difficulty": 3,
+    "title": "What is TDD?",
+    "instructions": "Explain test-driven development simply.",
+    "reference_text": "Test-driven development, or TDD, is a software development practice where you write automated tests before writing the implementation code. This ensures your code meets requirements from the start and makes refactoring safer.",
+    "target_words": ["automated", "implementation", "refactoring"]
+  }
+]
